@@ -1,5 +1,21 @@
 # Getting Started with Create React App
 
+## Docker Instructions
+
+To build and run the Docker container for this application, follow these steps:
+
+1. Build the Docker image:
+   ```bash
+   docker build -t pokpa-info .
+   ```
+
+2. Run the Docker container:
+   ```bash
+   docker run -p 3000:3000 pokpa-info
+   ```
+
+3. Access the application at `http://localhost:3000`.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
